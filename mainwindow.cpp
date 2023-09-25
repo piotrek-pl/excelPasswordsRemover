@@ -23,6 +23,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->saveAsButton->setEnabled(false);
 
     previousSelectedFilePathToRead = "";
+    setWindowIcon(QIcon(":/img/icon.png"));
 }
 
 MainWindow::~MainWindow()

@@ -30,5 +30,4 @@ LIBS += -L$$PWD/external/qxlsx/lib -lQXlsx
 RESOURCES += \
     resources.qrc
 
-
-
+RC_ICONS = img/key.ico
